@@ -189,3 +189,154 @@ a{
     color: #64748b;
     font-size: 13px;
 }
+
+
+
+
+.pricingSection {
+    padding: 90px 0 110px;
+    background-color: #ffffff;
+}
+
+.pricingSectionContainer {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.pricingHeading {
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.pricingHeading h2 {
+    margin-bottom: 8px;
+    color: #0f172a;
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.pricingHeading p {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.pricingGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    align-items: stretch;
+}
+
+.pricingCard {
+    min-height: 480px;
+    padding: 28px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+}
+
+.planName {
+    margin-bottom: 6px;
+
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.planPrice {
+    padding-bottom: 22px;
+    margin-bottom: 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.price {
+    color: #0f172a;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.priceNote {
+    margin-top: 4px;
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+.pricingFeatures {
+    margin-bottom: 26px;
+    padding-left: 20px;
+
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.pricingFeatures li {
+    margin-bottom: 10px;
+}
+
+.pricingFeatures li::marker {
+    color: #2563eb;
+}
+
+.pricingBtn {
+    width: 100%;
+    margin-top: auto;
+    padding: 11px 18px;
+
+    display: block;
+
+    border: 1px solid #2563eb;
+    border-radius: 6px;
+
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricingBtn:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+
+
+.featuredPlan {
+    background-color: #0f1d2d;
+    border-color: #0f1d2d;
+}
+
+.featuredPlan .planName,
+.featuredPlan .price,
+.featuredPlan .pricingFeatures {
+    color: #ffffff;
+}
+
+.featuredPlan .priceNote {
+    color: #94a3b8;
+}
+
+.featuredPlan .planPrice {
+    border-bottom-color: #334155;
+}
+
+.featuredBtn {
+    border-color: #2563eb;
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.featuredBtn:hover {
+    background-color: #1d4ed8;
+}
